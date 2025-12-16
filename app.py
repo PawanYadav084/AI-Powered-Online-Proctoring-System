@@ -50,11 +50,14 @@ def process_frame():
     return jsonify({'warnings': warnings})
 
 # --- Main entry point ---
+#if __name__ == '__main__':
+  #  app.run(host='0.0.0.0', port=5001, debug=True)
+
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001, debug=True)
-
-
-
+    # यह सिर्फ तब चलेगा जब आप कंप्यूटर पर python app.py चलाएंगे
+    # Cloud पर Gunicorn इसे हैंडल करेगा
+    app.run(host='0.0.0.0', port=5000)
 
 
 
