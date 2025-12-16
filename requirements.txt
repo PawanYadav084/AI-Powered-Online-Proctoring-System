@@ -1,0 +1,17 @@
+Flask
+flask-cors
+gunicorn
+opencv-python-headless
+numpy
+pandas
+Pillow
+PyYAML
+requests
+scipy
+seaborn
+tqdm
+matplotlib
+psutil
+ultralytics
+torch --index-url https://download.pytorch.org/whl/cpu
+torchvision --index-url https://download.pytorch.org/whl/cpu
